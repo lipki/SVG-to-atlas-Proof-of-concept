@@ -34,7 +34,7 @@
        x="0"
        height="756"
        width="756"
-       id="size_hub"
+       id="size_buildings/hub"
        style="opacity:1;vector-effect:none;fill:#5dff00;fill-opacity:1;stroke:none;stroke-width:5.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        ry="0"
@@ -42,14 +42,14 @@
        x="756"
        height="252"
        width="420"
-       id="size_painter-mirrored"
+       id="size_buildings/painter-mirrored"
        style="opacity:1;vector-effect:none;fill:#00ff9c;fill-opacity:1;stroke:none;stroke-width:5.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="756"
        x="9.5367432e-07"
        height="252"
        width="756"
-       id="size_painter-quad"
+       id="size_buildings/painter-quad"
        style="opacity:1;vector-effect:none;fill:#00fbff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="1008"
@@ -63,7 +63,7 @@
        x="0"
        height="252"
        width="756"
-       id="size_cutter-quad"
+       id="size_buildings/cutter-quad"
        style="opacity:1;vector-effect:none;fill:#2400ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="0"
@@ -77,7 +77,7 @@
        x="756"
        height="252"
        width="420"
-       id="size_painter"
+       id="size_buildings/painter"
        style="display:inline;opacity:1;vector-effect:none;fill:#00cfff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="252"
@@ -91,7 +91,7 @@
        x="756"
        height="252"
        width="420"
-       id="size_mixer"
+       id="size_buildings/mixer"
        style="display:inline;opacity:1;vector-effect:none;fill:#0041ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="503.99997"
@@ -105,7 +105,7 @@
        x="756"
        height="252"
        width="420"
-       id="size_stacker"
+       id="size_buildings/stacker"
        style="display:inline;opacity:1;vector-effect:none;fill:#5e00ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="756"
@@ -133,7 +133,7 @@
        x="756"
        height="210"
        width="420"
-       id="size_splitter"
+       id="size_buildings/splitter"
        style="display:inline;opacity:1;vector-effect:none;fill:#ff7e00;fill-opacity:1;stroke:none;stroke-width:5.4772253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="1680.0001"
@@ -154,7 +154,7 @@
        x="1596"
        height="252"
        width="252"
-       id="size_miner-chainable"
+       id="size_buildings/miner-chainable"
        style="display:inline;opacity:1;vector-effect:none;fill:#f100ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="252"
@@ -196,7 +196,7 @@
        x="1596"
        height="252"
        width="252"
-       id="size_rotater"
+       id="size_buildings/rotater"
        style="display:inline;opacity:1;vector-effect:none;fill:#ff8c00;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="924"
@@ -266,7 +266,7 @@
        x="1596"
        height="252"
        width="252"
-       id="size_trash"
+       id="size_buildings/trash"
        style="display:inline;opacity:1;vector-effect:none;fill:#38ff00;fill-opacity:1;stroke:none;stroke-width:4.64757967;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="1428.0001"
@@ -280,7 +280,7 @@
        x="2100"
        height="420"
        width="336"
-       id="size_trash-storage"
+       id="size_buildings/trash-storage"
        style="display:inline;opacity:1;vector-effect:none;fill:#ff001d;fill-opacity:1;stroke:none;stroke-width:5.16397762;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="419.99997"
@@ -294,7 +294,7 @@
        x="1596"
        height="210"
        width="252"
-       id="size_underground_belt_exit"
+       id="size_buildings/underground_belt_exit"
        style="display:inline;opacity:1;vector-effect:none;fill:#00ffe0;fill-opacity:1;stroke:none;stroke-width:4.2426405;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        y="1680.0001"
@@ -316,7 +316,7 @@
        x="1596"
        height="210"
        width="252"
-       id="size_underground_belt_entry-tier2"
+       id="size_buildings/underground_belt_entry-tier2"
        style="opacity:1;vector-effect:none;fill:#00acff;fill-opacity:1;stroke:none;stroke-width:8.21583843;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        ry="0"
@@ -324,7 +324,7 @@
        x="1596"
        height="210"
        width="252"
-       id="size_underground_belt_exit-tier2"
+       id="size_buildings/underground_belt_exit-tier2"
        style="opacity:1;vector-effect:none;fill:#0029ff;fill-opacity:1;stroke:none;stroke-width:8.21583843;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        ry="0"
@@ -375,7 +375,7 @@
        x="2100"
        height="252"
        width="252"
-       id="size_lambda_1-1"
+       id="size_buildings/lambda_1-1"
        style="opacity:1;vector-effect:none;fill:#71ff00;fill-opacity:1;stroke:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="1092.0001"
@@ -429,7 +429,7 @@
        style="display:inline;opacity:1;vector-effect:none;fill:#00ff64;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:crispEdges" />
     <rect
        style="opacity:1;vector-effect:none;fill:#5600ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="size_miner"
+       id="size_buildings/miner"
        width="252"
        height="252"
        x="1596"
@@ -437,7 +437,7 @@
        ry="0" />
     <rect
        style="opacity:1;vector-effect:none;fill:#f0ff00;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="size_rotater-ccw"
+       id="size_buildings/rotater-ccw"
        width="252"
        height="252"
        x="1596"
@@ -445,7 +445,7 @@
        ry="0" />
     <rect
        style="opacity:1;vector-effect:none;fill:#00ff4a;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="size_underground_belt_entry"
+       id="size_buildings/underground_belt_entry"
        width="252"
        height="210"
        x="1596"
@@ -453,7 +453,7 @@
        ry="0" />
     <rect
        style="opacity:1;vector-effect:none;fill:#ec00ff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="size_cutter"
+       id="size_buildings/cutter"
        width="420"
        height="252"
        x="756"
@@ -461,7 +461,7 @@
        ry="0" />
     <rect
        style="opacity:1;vector-effect:none;fill:#ff0035;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="size_painter-double"
+       id="size_buildings/painter-double"
        width="420"
        height="420"
        x="756"
@@ -672,7 +672,7 @@
     </g>
     <g
        transform="translate(42.176778,-2099.8233)"
-       id="hub"
+       id="buildings/hub"
        style="display:inline;shape-rendering:crispEdges">
       <path
          id="path8869"
@@ -726,7 +726,7 @@
     </g>
     <g
        transform="translate(1385.9786,-1554)"
-       id="painter-quad"
+       id="buildings/painter-quad"
        style="display:inline;shape-rendering:crispEdges">
       <path
          id="path8865"
@@ -968,7 +968,7 @@
     </g>
     <g
        transform="translate(1553.9785,-1435.0547)"
-       id="cutter"
+       id="buildings/cutter"
        style="display:inline;shape-rendering:crispEdges">
       <path
          id="path8856"
@@ -1005,7 +1005,7 @@
     </g>
     <g
        transform="translate(-755.29289,-1259.2929)"
-       id="painter">
+       id="buildings/painter">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
          d="m 1582.8555,299 a 3.0003,3.0003 0 0 0 -2.0293,0.79102 l -22.8555,21 A 3.0003,3.0003 0 0 0 1557,323 v 118 c 0,2.98712 1.1984,6.30753 3.3633,9.54102 2.1641,3.23244 5.4523,6.3109 9.9414,7.37695 10e-4,3.4e-4 0,0.002 0,0.002 l 71.9629,17.99024 a 3.0003,3.0003 0 0 0 1.1328,0.0625 l 210.2949,-28.6543 c 0.6103,0.2189 6.1317,2.20534 13.3457,4.59766 7.6004,2.52044 16.1768,5.23113 21.207,6.10156 a 3.0003,3.0003 0 0 0 0.7188,0.0351 c 8.2867,-0.57759 16.0508,-7.42791 16.0508,-16.07421 V 314.02148 a 3.0003,3.0003 0 0 0 0,-0.01 C 1904.998,306.05628 1898.6071,299 1890,299 Z"
@@ -1099,7 +1099,7 @@
     </g>
     <g
        transform="translate(-755.29289,-1511.2929)"
-       id="painter-mirrored"
+       id="buildings/painter-mirrored"
        style="display:inline;shape-rendering:crispEdges">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
@@ -1195,7 +1195,7 @@
     </g>
     <g
        transform="translate(-965.99999,-1344)"
-       id="stacker">
+       id="buildings/stacker">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
          d="m 1772,887 c -8.2703,0 -14.8517,6.7661 -15.0215,14.959 a 3.0003,3.0003 0 0 0 0,0.0664 l 0.022,16.9785 a 3.0003,3.0003 0 0 0 0.9531,2.1895 l 28.5469,26.6425 c -12.5202,34.428 -23.9558,64.1749 -34.3828,97.2403 a 3.0003,3.0003 0 0 0 -0.1,0.4218 c -0.7059,4.3565 1.1312,8.4053 4.0136,11.1348 2.8825,2.7295 6.821,4.3672 10.9688,4.3672 h 152 a 3.0003,3.0003 0 0 0 3,-3 v -14 h 18.8906 l 18.1074,16.2344 A 3.0003,3.0003 0 0 0 1961,1061 h 144 c 4.5593,0 8.8623,-2.0442 12.0508,-5.1406 3.1404,-3.05 5.2877,-7.2931 4.9492,-11.916 V 974 a 3.0003,3.0003 0 0 0 -1.3711,-2.5195 l -130,-84 A 3.0003,3.0003 0 0 0 1989,887 Z"
@@ -1240,7 +1240,7 @@
     </g>
     <g
        transform="translate(797.47853,-1183.0547)"
-       id="cutter-quad"
+       id="buildings/cutter-quad"
        style="display:inline;shape-rendering:crispEdges">
       <path
          id="path8861"
@@ -1269,7 +1269,7 @@
     </g>
     <g
        transform="translate(-965.99999,-1596)"
-       id="mixer"
+       id="buildings/mixer"
        style="display:inline;shape-rendering:crispEdges">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
@@ -1345,7 +1345,7 @@
     </g>
     <g
        transform="translate(1890,-1428)"
-       id="miner-chainable">
+       id="buildings/miner-chainable">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -161.59961,708.84375 c -3.10679,-0.13455 -6.0802,1.30028 -7.90625,3.81836 a 3.0003,3.0003 0 0 0 -0.002,0.002 L -174.10156,719 h -42.32032 C -234.41782,719 -249,733.58216 -249,751.57812 V 860.42188 C -249,878.41784 -234.41783,893 -216.42188,893 h 108.84376 C -89.582126,893 -75,878.41785 -75,860.42188 V 751.57812 C -75,733.58216 -89.582176,719 -107.57812,719 h -42.32032 l -4.59375,-6.33594 a 3.0003,3.0003 0 0 0 -0.002,-0.002 c -1.659,-2.28777 -4.27542,-3.69505 -7.09961,-3.81836 a 3.0003,3.0003 0 0 0 -0.006,0 z m -31.04883,41.11328 h 2.89453 c 1.54938,2.74849 4.39607,4.76645 7.92188,4.76758 a 3.0003,3.0003 0 0 0 0.002,0 h 39.66016 c 3.52663,0 6.37421,-2.01848 7.92383,-4.76758 h 2.89453 c 14.1213,0 25.39453,11.27323 25.39453,25.39453 v 61.29688 c 0,14.1213 -11.27323,25.39453 -25.39453,25.39453 h -61.29688 c -14.1213,0 -25.39453,-11.27323 -25.39453,-25.39453 v -61.29688 c 0,-14.1213 11.27323,-25.39453 25.39453,-25.39453 z"
@@ -1363,7 +1363,7 @@
     </g>
     <g
        transform="translate(1890,-1890)"
-       id="miner">
+       id="buildings/miner">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -161.59961,918.84375 c -3.10679,-0.13455 -6.0802,1.30029 -7.90625,3.81836 a 3.0003,3.0003 0 0 0 -0.002,0.002 L -174.10156,929 h -42.32032 C -234.4178,929 -249,943.58217 -249,961.57812 v 108.84378 c 0,17.9959 14.58217,32.5781 32.57812,32.5781 h 108.84376 C -89.582136,1103 -75,1088.4178 -75,1070.4219 V 961.57812 C -75,943.58217 -89.582186,929.00003 -107.57812,929 h -42.32032 l -4.59375,-6.33594 a 3.0003,3.0003 0 0 0 -0.002,-0.002 c -1.659,-2.28777 -4.27542,-3.69504 -7.09961,-3.81836 a 3.0003,3.0003 0 0 0 -0.006,0 z m -48.57617,35.05859 h 19.25976 c -0.78578,5.27031 3.22333,10.8204 9.08399,10.82227 a 3.0003,3.0003 0 0 0 0.002,0 h 39.66016 c 5.86148,0 9.87144,-5.55134 9.08594,-10.82227 h 19.25976 c 7.7642,0 13.921876,6.15769 13.921876,13.92188 v 96.35158 c 0,7.7642 -6.157686,13.9219 -13.921876,13.9219 h -96.35156 c -7.76419,0 -13.92188,-6.1577 -13.92188,-13.9219 v -96.35158 c 0,-7.76419 6.15768,-13.92188 13.92188,-13.92188 z"
@@ -1381,7 +1381,7 @@
     </g>
     <g
        transform="translate(-755.29294,-251.29311)"
-       id="painter-double"
+       id="buildings/painter-double"
        style="display:inline;opacity:1;shape-rendering:crispEdges">
       <g
          id="g11286">
@@ -1496,7 +1496,7 @@
     </g>
     <g
        transform="translate(1036.5,-616.00002)"
-       id="splitter">
+       id="buildings/splitter">
       <path
          transform="translate(0,756)"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
@@ -1562,7 +1562,7 @@
     </g>
     <g
        transform="translate(2435.5,-1386)"
-       id="rotater">
+       id="buildings/rotater">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:6.21673632;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
          d="m -765.36133,1095 c -5.6135,0 -14.42083,3.9178 -21.95703,16.6387 C -794.85456,1124.3595 -801,1145.8705 -801,1182 c 0,36.3523 6.14123,57.8635 13.68359,70.5352 7.54237,12.6716 16.39952,16.4648 21.95508,16.4648 h 128.72266 c 4.8752,0 9.5426,-1.9332 12.94531,-5.1406 3.40271,-3.2074 5.55198,-7.949 4.64453,-13.043 a 3.108679,3.108679 0 0 0 -0.25586,-0.7969 c 0,0 -11.69531,-24.3555 -11.69531,-66.0195 0,-23.6532 2.96517,-41.2322 5.9043,-52.8535 2.93913,-11.6213 5.75586,-17.0957 5.75586,-17.0957 A 3.108679,3.108679 0 0 0 -619,1112.6387 c 0,-9.7183 -7.92042,-17.6387 -17.63867,-17.6387 z"
@@ -1590,7 +1590,7 @@
          id="path12672" />
     </g>
     <g
-       id="rotater-ccw"
+       id="buildings/rotater-ccw"
        style="display:inline;opacity:1;shape-rendering:crispEdges"
        transform="translate(2436,-1134)">
       <path
@@ -1660,7 +1660,7 @@
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97474748;shape-rendering:crispEdges" />
     <g
        transform="translate(3863.9918,-1008)"
-       id="trash">
+       id="buildings/trash">
       <path
          id="path14874"
          d="m -2202.0371,1216.0859 a 3.0003,3.0003 0 0 0 -2.0391,0.795 l -25.2324,23.2558 a 3.0003,3.0003 0 0 0 -0.8906,2.875 l 8.1094,35.416 -9.8086,95.3086 a 3.0003,3.0003 0 0 0 0.7793,2.3418 l 23.2558,25.2305 a 3.0003,3.0003 0 0 0 2.875,0.8906 l 35.4141,-8.1094 95.3105,9.8086 a 3.0003,3.0003 0 0 0 2.3399,-0.7793 l 25.2324,-23.2558 a 3.0003,3.0003 0 0 0 0.8906,-2.875 l -8.1094,-35.416 9.8086,-95.3086 a 3.0003,3.0003 0 0 0 -0.7793,-2.3418 l -23.2558,-25.2305 a 3.0003,3.0003 0 0 0 -2.875,-0.8906 l -35.416,8.1094 -95.3086,-9.8086 a 3.0003,3.0003 0 0 0 -0.3008,-0.016 z"
@@ -1711,7 +1711,7 @@
     </g>
     <g
        transform="translate(2814,-2394)"
-       id="trash-storage">
+       id="buildings/trash-storage">
       <path
          id="path15412"
          d="m -687.32227,1169.0234 c -5.85068,0 -10.65429,4.8036 -10.65429,10.6543 v 124.3946 a 2.9762977,2.9762977 0 0 0 1.14062,2.3437 l 13.54297,10.6074 c -3.57523,8.7243 -6.91873,16.9321 -9.29297,22.877 -1.29554,3.2439 -2.34427,5.9069 -3.07617,7.8281 -0.36595,0.9606 -0.65087,1.731 -0.85742,2.3223 -0.10327,0.2956 -0.187,0.543 -0.25781,0.7793 -0.0708,0.2362 -0.19922,0.074 -0.19922,1.1699 0,1.0957 0.1284,0.9337 0.19922,1.1699 0.0708,0.2363 0.15454,0.4837 0.25781,0.7793 0.20655,0.5913 0.49147,1.3617 0.85742,2.3223 0.7319,1.9212 1.78063,4.5842 3.07617,7.8281 2.37424,5.9449 5.71774,14.1527 9.29297,22.877 l -13.54297,10.6074 a 2.9762977,2.9762977 0 0 0 -1.14062,2.3437 v 124.3946 c 0,5.8507 4.80361,10.6543 10.65429,10.6543 h 126.64454 c 5.85068,0 10.65429,-4.8036 10.65429,-10.6543 v -18.9414 c 1.72195,0.6826 3.7299,1.4867 5.00782,1.9804 1.16003,0.4482 2.10787,0.8073 2.82226,1.0645 0.3572,0.1286 0.6526,0.2304 0.91797,0.3144 0.13268,0.042 0.2554,0.08 0.4082,0.1192 0.15281,0.039 0.19239,0.1172 0.86719,0.1172 0.6748,0 0.71438,-0.078 0.86719,-0.1172 0.1528,-0.039 0.27552,-0.077 0.4082,-0.1192 0.26537,-0.084 0.56077,-0.1858 0.91797,-0.3144 0.71439,-0.2572 1.66224,-0.6163 2.82226,-1.0645 1.27792,-0.4937 3.28587,-1.2978 5.00782,-1.9804 v 18.9414 c 0,5.8507 4.80361,10.6543 10.65429,10.6543 h 126.64454 c 5.85068,0 10.65429,-4.8036 10.65429,-10.6543 v -124.3946 a 2.9762977,2.9762977 0 0 0 -1.14062,-2.3437 l -13.54297,-10.6074 c 3.57523,-8.7243 6.91873,-16.9321 9.29297,-22.877 1.29554,-3.2439 2.34427,-5.9069 3.07617,-7.8281 0.36595,-0.9606 0.65087,-1.731 0.85742,-2.3223 0.10327,-0.2956 0.187,-0.543 0.25781,-0.7793 0.0708,-0.2362 0.19922,-0.074 0.19922,-1.1699 0,-1.0957 -0.1284,-0.9337 -0.19922,-1.1699 -0.0708,-0.2363 -0.15454,-0.4837 -0.25781,-0.7793 -0.20655,-0.5913 -0.49147,-1.3617 -0.85742,-2.3223 -0.7319,-1.9212 -1.78063,-4.5842 -3.07617,-7.8281 -2.37424,-5.9449 -5.71774,-14.1527 -9.29297,-22.877 l 13.54297,-10.6074 a 2.9762977,2.9762977 0 0 0 1.14062,-2.3437 v -124.3946 c 0,-5.8507 -4.80361,-10.6543 -10.65429,-10.6543 h -126.64454 c -5.85068,0 -10.65429,4.8036 -10.65429,10.6543 v 18.9414 c -1.72195,-0.6826 -3.72989,-1.4867 -5.00782,-1.9804 -1.16003,-0.4482 -2.10787,-0.8073 -2.82226,-1.0645 -0.3572,-0.1286 -0.6526,-0.2304 -0.91797,-0.3144 -0.13268,-0.042 -0.2554,-0.08 -0.4082,-0.1192 -0.15281,-0.039 -0.19239,-0.1172 -0.86719,-0.1172 -0.6748,0 -0.71438,0.078 -0.86719,0.1172 -0.1528,0.039 -0.27552,0.077 -0.4082,0.1192 -0.26537,0.084 -0.56077,0.1858 -0.91797,0.3144 -0.71439,0.2572 -1.66224,0.6163 -2.82226,1.0645 -1.27792,0.4937 -3.28587,1.2978 -5.00782,1.9804 v -18.9414 c 0,-5.8507 -4.80361,-10.6543 -10.65429,-10.6543 z"
@@ -1771,7 +1771,7 @@
     </g>
     <g
        transform="translate(2520,-881.99995)"
-       id="underground_belt_exit">
+       id="buildings/underground_belt_exit">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.07058824;fill-rule:nonzero;stroke:none;stroke-width:5.95200014;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
          d="m -866,1554.0234 c -4.16793,0 -8.17667,1.6211 -11.125,4.3516 -2.94833,2.7305 -4.84323,6.8781 -3.91016,11.2891 l 23.37305,110.5019 c 0.58786,2.7792 1.72891,5.4479 3.65625,7.5586 1.92734,2.1107 4.77736,3.5723 8.02734,3.5723 h 103.95704 c 3.2498,0 6.10103,-1.4596 8.02929,-3.5703 1.92826,-2.1108 3.06865,-4.783 3.6543,-7.5645 l 23.25,-110.4199 c 0.92928,-4.4135 -0.96221,-8.5673 -3.90625,-11.3184 -2.94404,-2.7511 -6.95502,-4.4004 -11.13477,-4.4004 a 2.9762977,2.9762977 0 0 0 -0.002,0 c 0,0 -18.30837,0.01 -27.86523,0 -6.30941,-0.01 -11.73542,3.36 -16.3125,7.8809 -4.57709,4.5209 -8.49722,10.3145 -12.0586,16.0098 -3.56138,5.6952 -6.76481,11.3127 -9.61133,15.332 -1.42325,2.0096 -2.76588,3.6112 -3.87304,4.582 -1.10717,0.9708 -1.84801,1.1953 -2.14844,1.1953 -0.46262,0 -1.25937,-0.2603 -2.4043,-1.2285 -1.14492,-0.9681 -2.51087,-2.5594 -3.94531,-4.5605 -2.86888,-4.0022 -6.04346,-9.6074 -9.55469,-15.2969 -3.51122,-5.6895 -7.35991,-11.4831 -11.8789,-16.0098 -4.519,-4.5266 -9.90817,-7.9043 -16.2168,-7.9043 z"
@@ -1802,7 +1802,7 @@
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#32d41c;fill-opacity:1;fill-rule:nonzero;stroke:#64666e;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
     <g
-       id="underground_belt_entry"
+       id="buildings/underground_belt_entry"
        style="display:inline;opacity:1;shape-rendering:crispEdges"
        transform="rotate(-180,461.74999,1069.5)">
       <path
@@ -1835,7 +1835,7 @@
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#6d9dff;fill-opacity:1;fill-rule:nonzero;stroke:#64666e;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
     <g
-       id="underground_belt_entry-tier2"
+       id="buildings/underground_belt_entry-tier2"
        style="display:inline;opacity:1;shape-rendering:crispEdges"
        transform="rotate(-180,482.74982,1132.5)">
       <path
@@ -1868,7 +1868,7 @@
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#6d9dff;fill-opacity:1;fill-rule:nonzero;stroke:#64666e;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
     <g
-       id="underground_belt_exit-tier2"
+       id="buildings/underground_belt_exit-tier2"
        style="display:inline;opacity:1;shape-rendering:crispEdges"
        transform="translate(-1694.0078,-1421.9588)">
       <path
@@ -1954,7 +1954,7 @@
     </g>
     <g
        transform="rotate(-90,967.5,-1162.5)"
-       id="lambda_1-1">
+       id="buildings/lambda_1-1">
       <g
          transform="translate(-10)"
          id="layer6"
