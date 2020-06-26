@@ -116,7 +116,7 @@ window.onload = () => {
     
     var savable = new Image();
     savable.src = canvas.toDataURL();
-    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable);
+    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable, {base64: true});
     zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", "Hello[p my)6cxsw2q");
   }
 
