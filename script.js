@@ -69,8 +69,8 @@ window.onload = () => {
     divAtlas.appendChild(h3);
     divAtlas.appendChild(divDrawing);
     divAtlas.appendChild(divText);
-    divAtlas.appendChild(divSprites);
     lesatlas.appendChild(divAtlas);
+    document.getElementsByTagName("body")[0].appendChild(divSprites);
 
     var atlas = {
       frames: {},
