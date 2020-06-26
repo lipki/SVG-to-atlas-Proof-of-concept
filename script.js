@@ -69,8 +69,8 @@ window.onload = () => {
     divAtlas.appendChild(h3);
     divAtlas.appendChild(divDrawing);
     divAtlas.appendChild(divText);
-    divAtlas.appendChild(divSprites);
     lesatlas.appendChild(divAtlas);
+    document.getElementsByTagName("body")[0].appendChild(divSprites);
 
     var atlas = {
       frames: {},
@@ -108,16 +108,17 @@ window.onload = () => {
       sprite.sourceSize = {};
       sprite.sourceSize.w = sprite.frame.w;
       sprite.sourceSize.h = sprite.frame.h;
-
-      divSprites.appendChild(makeSprites(sprite, canvas, name));
+      
+      if( rapport == 1 )
+        divSprites.appendChild(makeSprites(sprite, canvas, name));
     }
 
     divText.value = JSON.stringify(atlas);
     
     var savable = new Image();
     savable.src = canvas.toDataURL();
-    //zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable);
-    //zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", "Hello[p my)6cxsw2q");
+    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
+    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", "Hello[p my)6cxsw2q");
   }
 
   function makeSprites(sprite, ref, name) {
@@ -141,7 +142,11 @@ window.onload = () => {
     figcap.appendChild(document.createTextNode(name));
     fig.appendChild(canvas);
     fig.appendChild(figcap);
-
+    
+    var savable = new Image();
+    savable.src = canvas.toDataURL();
+    zip.folder("res_raw").file(name, savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
+    
     return fig;
   }
   
