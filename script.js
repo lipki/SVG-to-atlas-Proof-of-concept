@@ -94,13 +94,13 @@ window.onload = () => {
       sprite.frame.y = Math.round(groupe.getAttribute("y") * rapport);
       sprite.frame.w = Math.round(groupe.getAttribute("width") * rapport);
       sprite.frame.h = Math.round(groupe.getAttribute("height") * rapport);
-      sprite.rotated = false;
-      sprite.trimmed = false;
+      //sprite.rotated = false;
+      //sprite.trimmed = false;
       sprite.spriteSourceSize = {};
       sprite.spriteSourceSize.x = 0;
       sprite.spriteSourceSize.y = 0;
-      sprite.spriteSourceSize.w = sprite.frame.w;
-      sprite.spriteSourceSize.h = sprite.frame.h;
+      //sprite.spriteSourceSize.w = sprite.frame.w;
+      //sprite.spriteSourceSize.h = sprite.frame.h;
       sprite.sourceSize = {};
       sprite.sourceSize.w = sprite.frame.w;
       sprite.sourceSize.h = sprite.frame.h;
@@ -129,7 +129,7 @@ window.onload = () => {
     var savable = new Image();
     savable.src = canvas.toDataURL();
     zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
-    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", "Hello[p my)6cxsw2q");
+    zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", divText.value);
 
   }
 
