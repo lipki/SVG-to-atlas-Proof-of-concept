@@ -1,6 +1,7 @@
 window.onload = () => {
   const svg_url = "atlas0.svg";
   const lesatlas = document.getElementById("lesatlas");
+  const divSprites = document.getElementById("sprites");
   const ref = document.getElementById("ref");
 
   var svgloaded = false;
@@ -34,6 +35,8 @@ window.onload = () => {
     makeAtlas(50 / 100);
     makeAtlas(25 / 100);
     makeAtlas(10 / 100);
+
+    makeAlt();
     
     zip.generateAsync({type:"base64"}).then(function (base64) {
         window.location = "data:application/zip;base64," + base64;
@@ -48,11 +51,9 @@ window.onload = () => {
     var h3 = document.createElement("h3");
     var divDrawing = document.createElement("div");
     var divText = document.createElement("textarea");
-    var divSprites = document.createElement("div");
     divAtlas.classList.add("atlas");
     divAtlas.style.flexGrow = rapport * 100;
     divDrawing.classList.add("drawing");
-    divSprites.classList.add("sprites");
     divText.classList.add("atlasText");
     divText.value = "";
     h3.innerText = "atlas0_" + rapport * 100;
@@ -70,7 +71,6 @@ window.onload = () => {
     divAtlas.appendChild(divDrawing);
     divAtlas.appendChild(divText);
     lesatlas.appendChild(divAtlas);
-    document.getElementsByTagName("body")[0].appendChild(divSprites);
 
     var atlas = {
       frames: {},
@@ -83,15 +83,11 @@ window.onload = () => {
       }
     };
 
-    var layer_sizes = document.getElementById("sizes");
-    var layer_sprites = document.getElementById("sprites");
-    var layer_blueprints = document.getElementById("blueprints");
-
-    var groupes = layer_sizes.getElementsByTagName("rect");
-
+    var layer_sizesAtlas = document.getElementById("sizesAtlas");
+    var groupes = layer_sizesAtlas.getElementsByTagName("rect");
     for (const groupe of groupes) {
       var name =
-        "sprites/" + groupe.getAttribute("id").split("size_").join("") + ".png";
+        "sprites/" + groupe.getAttribute("id").split(".").join("/") + ".png";
       var sprite = (atlas.frames[name] = {});
       sprite.frame = {};
       sprite.frame.x = Math.round(groupe.getAttribute("x") * rapport);
@@ -109,8 +105,23 @@ window.onload = () => {
       sprite.sourceSize.w = sprite.frame.w;
       sprite.sourceSize.h = sprite.frame.h;
       
-      if( rapport == 1 )
-        divSprites.appendChild(makeSprites(sprite, canvas, name));
+      if( rapport == 1 ) {
+
+        var sprite = makeSprite(sprite, canvas);
+        var fig = document.createElement("figure");
+        var figcap = document.createElement("figcaption");
+
+        figcap.appendChild(document.createTextNode(name));
+        fig.appendChild(sprite);
+        fig.appendChild(figcap);
+        
+        divSprites.appendChild(fig);
+        
+        var savable = new Image();
+        savable.src = sprite.toDataURL();
+        zip.folder("res_raw").file(name, savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
+
+      }
     }
 
     divText.value = JSON.stringify(atlas);
@@ -119,11 +130,41 @@ window.onload = () => {
     savable.src = canvas.toDataURL();
     zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".png", savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
     zip.folder("res_built").folder("atlas").file("atlas0_" + rapport * 100 + ".json", "Hello[p my)6cxsw2q");
+
   }
 
-  function makeSprites(sprite, ref, name) {
-    var fig = document.createElement("figure");
-    var figcap = document.createElement("figcaption");
+  function makeAlt() {
+
+    var layer_sizesAlt = document.getElementById("sizesAlt");
+    var groupes = layer_sizesAlt.getElementsByTagName("rect");
+    for (const groupe of groupes) {
+      var name = groupe.getAttribute("id").split(".").join("/") + ".png";
+      var sprite = {};
+      sprite.frame = {};
+      sprite.frame.x = Math.round(groupe.getAttribute("x"));
+      sprite.frame.y = Math.round(groupe.getAttribute("y"));
+      sprite.frame.w = Math.round(groupe.getAttribute("width"));
+      sprite.frame.h = Math.round(groupe.getAttribute("height"));
+
+      var sprite = makeSprite(sprite, imgref);
+      var fig = document.createElement("figure");
+      var figcap = document.createElement("figcaption");
+
+      figcap.appendChild(document.createTextNode(name));
+      fig.appendChild(sprite);
+      fig.appendChild(figcap);
+      
+      divSprites.appendChild(fig);
+      
+      var savable = new Image();
+      savable.src = sprite.toDataURL();
+      zip.file(name, savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
+
+    }
+
+  }
+
+  function makeSprite(sprite, ref) {
     var canvas = document.createElement("canvas");
     var ctx = canvas.getContext("2d");
     canvas.width = sprite.frame.w;
@@ -139,15 +180,7 @@ window.onload = () => {
       sprite.frame.w,
       sprite.frame.h
     );
-    figcap.appendChild(document.createTextNode(name));
-    fig.appendChild(canvas);
-    fig.appendChild(figcap);
-    
-    var savable = new Image();
-    savable.src = canvas.toDataURL();
-    zip.folder("res_raw").file(name, savable.src.substr(savable.src.indexOf(',')+1), {base64: true});
-    
-    return fig;
+    return canvas;
   }
   
 };

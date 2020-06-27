@@ -22,7 +22,7 @@
   min-width: 100%;
 }
 
-.sprites {
+#sprites {
   display: flex;
   flex-flow: row wrap;
 }
